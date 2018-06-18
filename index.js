@@ -1,7 +1,7 @@
 // index.js
 function createPost() {
-  var commenter = document.getElementById("commenterName").value;
-  var comment = document.getElementById("commentText").value;
+  var poster = document.getElementById("commenterName").value;
+  var post = document.getElementById("commentText").value;
  
   var commentTemplate = document.getElementById("comment-template").innerHTML;
  
