@@ -7,9 +7,11 @@
     <main>
       <article>
         <header><h2>The Results are In!</h2></header>
-        <p>
-          After careful consideration and a generous grant from NASA, our team has determined that a woodchuck could chuck five wood, with a standard deviation of +/- .37 wood.
-        </p>
+        <form onsubmit="createPost();return false;">
+          Name: <input type="text" id="posterName"><br>
+          Post: <input type="textarea" id="commentText"><br>
+          <input type="submit">
+        </form>
         <footer>posted by Chuck Wooden</footer>
         <form onsubmit="postComment();return false;">
           Name: <input type="text" id="commenterName"><br>
